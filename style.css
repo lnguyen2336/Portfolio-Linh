@@ -1,0 +1,105 @@
+/*******
+
+COMMON
+
+*******/
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.font-primary{
+    color:darkcyan;
+    font-weight: bolder;
+    font-size: larger;
+}
+.title-icon{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a.font-black{
+    color: black !important;
+}
+/**********
+
+About
+
+**********/
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img{
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#about .name{
+    font-size: 24px;
+    color: black;
+}
+
+#about .vocation {
+    font-size: 17px;
+    color:darkgrey;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 14px;
+    color:darkcyan;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 22px;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a {
+    color:black;
+}
+
+
+/***********
+
+PROJECTS
+
+*********/
+
+#project {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2 {
+    text-align: center;
+    }
+    
+#project .card img {
+    width: 100%;
+}
+
+#project .card-title {
+    font-weight: bold;
+}
